@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-center justify-center container mx-auto p-4 font-playfair">
-        <div class="bg-white text-black p-6 rounded-lg shadow-lg">
+        <div class="text-black p-6">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-center md:ml-4">
                     <p class="text-lg md:text-3xl mb-2">
