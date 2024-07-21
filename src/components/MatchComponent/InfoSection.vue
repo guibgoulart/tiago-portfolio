@@ -87,6 +87,8 @@ export default {
 <style scoped>
 .info-size {
   width: 100%;
-  max-width: 30rem;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
 }
 </style>
