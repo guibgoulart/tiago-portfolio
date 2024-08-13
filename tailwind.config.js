@@ -15,13 +15,11 @@ export default {
       },
       colors: {
         black: '#272838',
+        'soft-black': '#333',
         yellow: '#F1D770',
         red: '#E57563',
         white: '#F9F8F8'
       },
-      maxWidth: {
-        1440: '1440px'
-      }
     }
   },
   plugins: [typography]

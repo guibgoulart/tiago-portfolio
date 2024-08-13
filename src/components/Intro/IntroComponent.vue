@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto p-4 font-playfair">
-        <div class="bg-black text-white p-6 rounded-lg shadow-lg">
+    <div class="container mt-8 font-playfair">
+        <div class="bg-black text-white p-6 rounded-lg">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="text-left md:ml-4">
                     <p class="text-lg md:text-3xl mb-2">
@@ -15,7 +15,7 @@
                     </p>
                     <p class="text-lg md:text-3xl">Peace! ✊🏽</p>
                     <div class="flex justify-center my-4 md:my-0">
-                        <img src="@/assets/what-huh.gif" alt="Confused Travolta" class="rounded-lg shadow-lg" />
+                        <img src="@/assets/what-huh.gif" alt="Confused Travolta" class="rounded-lg" />
                     </div>
                 </div>
             </div>
