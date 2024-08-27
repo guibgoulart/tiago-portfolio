@@ -18,7 +18,8 @@ export default {
         'soft-black': '#333',
         yellow: '#F1D770',
         red: '#E57563',
-        white: '#F9F8F8'
+        white: '#F9F8F8',
+        yellow_work: '#F1D770'
       },
     }
   },
