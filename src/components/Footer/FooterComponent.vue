@@ -1,0 +1,68 @@
+<template>
+    <div class="container mx-auto mt-8 p-4 md:p-8 font-playfair">
+      <!-- Main Row -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <!-- Left Column -->
+        <div class="text-left md:w-1/2">
+          <p class="text-2xl md:text-4xl mb-6">
+            thank you for your attention!
+          </p>
+        </div>
+        <!-- Right Column -->
+        <div class="text-right md:w-1/2">
+          <ul class="flex flex-col space-y-2 md:space-y-4 md:space-x-0">
+            <li>
+              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+                curriculum vitae ↗
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+                linkedin ↗
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+                instagram ↗
+              </a>
+            </li>
+            <li>
+              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+                spotify ↗
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Scroll to Top Button -->
+      <div class="text-center mt-8">
+        <a href="#" @click="scrollToTop">
+          <img src="@/assets/back to the top.png" alt="Back to Top" class="mx-auto cursor-pointer h-16 md:h-24">
+        </a>
+      </div>
+  
+      <!-- Footer Section -->
+      <div class="bg-soft-black text-white p-4 mt-8 rounded-lg flex flex-col items-center">
+        <p class="text-center text-sm md:text-lg mb-2">
+          made with ❤️ and figma
+        </p>
+        <p class="text-center text-xs md:text-sm">
+          coded by @guibgoulart
+        </p>
+      </div>
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    methods: {
+      scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+  }
+  </script>
+  
+  <style scoped></style>
+  

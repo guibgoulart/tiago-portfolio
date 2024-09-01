@@ -4,6 +4,7 @@ import IntroComponent from '@/components/Intro/IntroComponent.vue';
 import QuoteComponent from '@/components/Quote/QuoteComponent.vue';
 import BioComponent from '@/components/Bio/BioComponent.vue';
 import WorkComponent from '@/components/Work/WorkComponent.vue';
+import FooterComponent from '@/components/Footer/FooterComponent.vue';
 </script>
 
 <template>
@@ -13,6 +14,6 @@ import WorkComponent from '@/components/Work/WorkComponent.vue';
         <BioComponent />
         <QuoteComponent />
         <WorkComponent />
-        
+        <FooterComponent />
     </div>
 </template>
