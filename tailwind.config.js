@@ -19,7 +19,8 @@ export default {
         yellow: '#F1D770',
         red: '#E57563',
         white: '#F9F8F8',
-        blue: '#42A4FE'
+        blue: '#42A4FE',
+        yellow_work: '#F1D770'
       },
     }
   },
