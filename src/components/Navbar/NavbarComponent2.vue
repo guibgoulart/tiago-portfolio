@@ -1,6 +1,6 @@
 <template>
-  <nav class="w-full">
-    <div class="container mx-auto px-4 py-4 md:py-6 flex flex-row justify-between items-center font-helvetica text-[1.5em] md:text-[3.75em]">
+  <nav class="w-full bg-super-black">
+    <div class="container mx-auto px-4 py-4 md:py-6 flex flex-row justify-between items-center font-helvetica text-white text-[1.5em] md:text-[3.75em]">
       <div class="text-left">
         <p class="leading-tight">tiago</p>
         <p class="leading-tight">goulart</p>

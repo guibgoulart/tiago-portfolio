@@ -14,6 +14,7 @@ export default {
         dotgothic: ['"DotGothic16"', 'sans-serif']
       },
       colors: {
+        'super-black': '#0d0d0d',
         black: '#272838',
         'soft-black': '#333',
         yellow: '#F1D770',

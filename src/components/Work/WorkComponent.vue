@@ -1,9 +1,9 @@
 <template>
   <div class="bg-yellow_work min-h-screen py-4 sm:py-8 font-helvetica">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 mt-10">
       <!-- Frase centralizada -->
       <div class="text-center mb-12 sm:mb-16 max-w-3xl mx-auto">
-        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold leading-tight">
+        <h2 class="text-lg sm:text-xl md:text-2xl lg:text-4xl font-bold leading-tight">
           Now that we've gotten to know each other a <br>
           little bit, let me show you my world.
         </h2>
@@ -18,7 +18,9 @@
               Case Study: 2024 Master in UX/UI Design <br>
               Program at Nuclio Digital School, Barcelona.
             </p>
-            <img src="@/assets/Mockup.png" alt="Petpals Case Study" class="rounded-lg w-full" />
+            <router-link to="/petpals">
+              <img src="@/assets/Card Petpals.png" alt="Petpals Case Study" class="rounded-lg w-full cursor-pointer" />
+            </router-link>
           </div>
           <div class="mb-6">
             <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-4">Case Study: 2024.</p>
@@ -49,15 +51,4 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('/path/to/HelveticaNeue.woff2') format('woff2'),
-       url('/path/to/HelveticaNeue.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.font-helvetica {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 </style>
