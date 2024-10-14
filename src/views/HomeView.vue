@@ -20,6 +20,7 @@ import FooterComponent from '@/components/Footer/FooterComponent.vue';
 import NewNavbar from '@/components/Navbar/NewNavbar.vue';
 import QuoteComponent from '@/components/Quote/QuoteComponent.vue';
 import FooterComponent from '@/components/Footer/FooterComponent.vue';
+import FooterComponent2 from '@/components/Footer/FooterComponent2.vue';
 import HeroBannerComponent from '@/components/HeroBanner/HeroBannerComponent.vue';
 import WorkComponentNew from '@/components/Work/WorkComponentNew.vue';
 </script>
@@ -31,5 +32,6 @@ import WorkComponentNew from '@/components/Work/WorkComponentNew.vue';
         <QuoteComponent />
         <WorkComponentNew />
         <FooterComponent />
+        <FooterComponent2 />
     </div>
 </template>

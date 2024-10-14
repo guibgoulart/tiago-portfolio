@@ -25,7 +25,8 @@
                 I will help you develop your digital product based on a better user experience.
               </p>
               <a 
-                href="#" 
+                href="/about" 
+        
                 class="inline-block text-white bg-transparent px-6 py-3 text-lg font-bold border-2 border-white shadow-[2px_2px_0px_0px_rgba(255,255,255,1)] hover:bg-white hover:bg-opacity-20 transition-colors duration-300 mt-6"
               >
                 learn more
