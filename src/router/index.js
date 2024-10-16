@@ -28,7 +28,7 @@ const router = createRouter({
       name: 'contacme',
       component: () => import('../views/ContactMeView.vue')
 
-    }
+    },
   ]
 })
 

@@ -13,22 +13,22 @@
         <div class="md:w-1/2 ml-auto text-right">
           <ul class="flex flex-col space-y-2 md:space-y-4">
             <li>
-              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+              <a href="https://docs.google.com/document/d/18k4KWLUMiHyqHgBTk6UlZxCTfa83Fc-m3r3y946AFuc/edit?usp=drive_link" target="_blank" rel="noopener noreferrer" class="text-lg md:text-xl hover:text-yellow">
                 curriculum vitae ↗
               </a>
             </li>
             <li>
-              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+              <a href="https://www.linkedin.com/in/tiagorubensgoulart/" target="_blank" rel="noopener noreferrer" class="text-lg md:text-xl hover:text-yellow">
                 linkedin ↗
               </a>
             </li>
             <li>
-              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+              <a href="https://www.instagram.com/otiagorubens/" target="_blank" rel="noopener noreferrer" class="text-lg md:text-xl hover:text-yellow">
                 instagram ↗
               </a>
             </li>
             <li>
-              <a href="#" class="text-lg md:text-xl hover:text-yellow">
+              <a href="https://open.spotify.com/intl-pt/artist/5sCebujHOIPwB3bx0zzKz9?si=Qp1BRYtST4eU6bF9MafhUQ" target="_blank" rel="noopener noreferrer" class="text-lg md:text-xl hover:text-yellow">
                 spotify ↗
               </a>
             </li>
