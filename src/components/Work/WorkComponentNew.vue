@@ -12,9 +12,9 @@
             <h3 class="text-xl font-bold mb-2">{{ project.name }}</h3>
             <p class="text-gray-600 mb-4">{{ project.category }}</p>
             <p class="text-gray-700 mb-4">{{ project.description }}</p>
-            <a href="#" class="text-blue-600 hover:underline">
+            <button @click="openLink(project.link)" class="text-blue-600 hover:underline">
               Read case study →
-            </a>
+            </button>
           </div>
           <div class="h-64 relative">
             <img :src="project.image" :alt="`${project.name} project`" class="absolute inset-0 w-full h-full object-cover">
@@ -25,7 +25,8 @@
   </section>
 </template>
 
-<script>
+<script setup>
+import { ref } from 'vue'
 import petpalsLogo from '@/assets/petpals icone.png'
 import petpalsImage from '@/assets/petpals.png'
 import vasLogo from '@/assets/vas icone.png'
@@ -33,34 +34,36 @@ import vasImage from '@/assets/vas.png'
 import aueLogo from '@/assets/aue icone.png'
 import aueImage from '@/assets/aue.png'
 
-export default {
-  name: 'WorkComponentNew',
-  data() {
-    return {
-      projects: [
-        {
-          logo: petpalsLogo,
-          name: 'Petpals',
-          category: 'UX+UI Design',
-          description: 'Case Study: 2024 Master in UX/UI Design Program at Nuclio Digital School, Barcelona.',
-          image: petpalsImage
-        },
-        {
-          logo: vasLogo,
-          name: 'Vas',
-          category: 'UX+UI Design',
-          description: 'Case Study: A collaborative platform that connects drivers with available parking spaces in Barcelona.',
-          image: vasImage
-        },
-        {
-          logo: aueLogo,
-          name: 'Auê',
-          category: 'Branding Identity and Logo Design',
-          description: 'Case Study: Branding, Logo and Visual Identity Design for Associação Brasil Auê, 2023, Barcelona.',
-          image: aueImage
-        }
-      ]
-    }
+const projects = ref([
+  {
+    logo: petpalsLogo,
+    name: 'Petpals',
+    category: 'UX+UI Design',
+    description: 'Case Study: 2024 Master in UX/UI Design Program at Nuclio Digital School, Barcelona.',
+    image: petpalsImage,
+    link: 'https://www.behance.net/gallery/208940473/Petpals'
+  },
+  {
+    logo: vasLogo,
+    name: 'Vas',
+    category: 'UX+UI Design',
+    description: 'Case Study: A collaborative platform that connects drivers with available parking spaces in Barcelona.',
+    image: vasImage,
+    link: 'https://www.behance.net/gallery/208780171/Vas'
+  },
+  {
+    logo: aueLogo,
+    name: 'Auê',
+    category: 'Branding Identity and Logo Design',
+    description: 'Case Study: Branding, Logo and Visual Identity Design for Associação Brasil Auê, 2023, Barcelona.',
+    image: aueImage,
+    link: 'https://www.behance.net/gallery/203640917/Brasil-Aue'
+  }
+])
+
+const openLink = (url) => {
+  if (url !== '#') {
+    window.open(url, '_blank', 'noopener,noreferrer')
   }
 }
 </script>
