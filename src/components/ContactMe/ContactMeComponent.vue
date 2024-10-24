@@ -58,10 +58,10 @@
 import { ref } from 'vue';
 
 const socialIcons = [
-  { path: "M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2zm-5-4h4M7 16h4M7 12h10M7 8h4", link: '#' }, // Document
-  { path: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z M2 9h4v12H2z M4 2a2 2 0 1 0 0 4 2 2 0 1 0 0-4z", link: '#' }, // LinkedIn
-  { path: "M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm5-8a5 5 0 1 1-5-5 5 5 0 0 1 5 5z M17.34 6.66a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z", link: '#' }, // Instagram
-  { path: "M9 18V5l12-2v13 M9 9c-5 0-7 2-7 7s2 7 7 7 7-2 7-7-2-7-7-7z", link: '#' }, // Music
+  { path: "M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2zm-5-4h4M7 16h4M7 12h10M7 8h4", link: 'https://docs.google.com/document/d/18k4KWLUMiHyqHgBTk6UlZxCTfa83Fc-m3r3y946AFuc/edit?usp=drive_link' }, // Document
+  { path: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z M2 9h4v12H2z M4 2a2 2 0 1 0 0 4 2 2 0 1 0 0-4z", link: 'https://www.linkedin.com/in/tiagorubensgoulart/' }, // LinkedIn
+  { path: "M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8zm5-8a5 5 0 1 1-5-5 5 5 0 0 1 5 5z M17.34 6.66a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z", link: 'https://www.instagram.com/otiagorubens/' }, // Instagram
+  { path: "M9 18V5l12-2v13 M9 9c-5 0-7 2-7 7s2 7 7 7 7-2 7-7-2-7-7-7z", link: 'https://open.spotify.com/intl-pt/artist/5sCebujHOIPwB3bx0zzKz9?si=Qp1BRYtST4eU6bF9MafhUQ' }, // Spotify
 ];
 
 const formFields = [
