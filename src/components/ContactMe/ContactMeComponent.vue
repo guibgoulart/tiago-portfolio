@@ -2,17 +2,19 @@
   <div class="bg-white text-gray-900 py-16">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
+        <div class="text-right pr-8"> <!-- Added text-right and pr-8 classes -->
           <h2 class="text-6xl font-bold text-red mb-8">CONTACT<br />ME</h2>
           <p class="mb-4">
-            If you have any questions or comments, please contact me via
-            email or phone, or send me a message using the contact form.
+            If you have any questions or<br/>
+            comments, please contact me via<br/>
+            email or phone, or send me a<br/>
+            message using the contact form.
           </p>
           <p class="mb-2">Email</p>
-          <a href="mailto:osrubens@gmail.com" class="text-red mb-4 block">osrubens@gmail.com</a>
+          <a href="mailto:osrubens@gmail.com" class="text-black underline mb-4 block">osrubens@gmail.com</a>
           <p class="mb-2">Mobile</p>
           <p class="mb-8">(+34) 680 175 200</p>
-          <div class="flex space-x-4">
+          <div class="flex justify-end space-x-4"> <!-- Added justify-end class -->
             <a v-for="(icon, index) in socialIcons" :key="index" :href="icon.link" class="bg-red p-2 rounded-full hover:bg-red transition-colors duration-300">
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path :d="icon.path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
