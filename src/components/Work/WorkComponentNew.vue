@@ -6,20 +6,24 @@
         Transforming ideas into memorable experiences through UX+UI Design and strategic Branding.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div v-for="project in projects" :key="project.name" class="bg-white rounded-lg overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black flex flex-col">
+        <a
+          v-for="project in projects"
+          :key="project.name"
+          :href="project.link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="bg-white overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black flex flex-col hover:shadow-lg transition-shadow"
+        >
           <div class="p-6 flex-grow">
             <img :src="project.logo" :alt="`${project.name} logo`" class="w-16 h-16 mb-4">
             <h3 class="text-xl font-bold mb-2">{{ project.name }}</h3>
             <p class="text-gray-600 mb-4">{{ project.category }}</p>
             <p class="text-gray-700 mb-4">{{ project.description }}</p>
-            <button @click="openLink(project.link)" class="text-blue-600 hover:underline">
-              Read case study →
-            </button>
           </div>
-          <div class="h-64 relative">
-            <img :src="project.image" :alt="`${project.name} project`" class="absolute inset-0 w-full h-full object-cover">
+          <div class="flex-shrink-0">
+            <img :src="project.image" :alt="`${project.name} project`" class="w-full h-full object-cover">
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -30,7 +34,7 @@ import { ref } from 'vue'
 import petpalsLogo from '@/assets/petpals icone.png'
 import petpalsImage from '@/assets/petpals.png'
 import vasLogo from '@/assets/vas icone.png'
-import vasImage from '@/assets/vas.png'
+import vasImage from '@/assets/cardvas.png'
 import aueLogo from '@/assets/aue icone.png'
 import aueImage from '@/assets/aue.png'
 
@@ -60,10 +64,4 @@ const projects = ref([
     link: 'https://www.behance.net/gallery/203640917/Brasil-Aue'
   }
 ])
-
-const openLink = (url) => {
-  if (url !== '#') {
-    window.open(url, '_blank', 'noopener,noreferrer')
-  }
-}
 </script>
