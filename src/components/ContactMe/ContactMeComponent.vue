@@ -14,15 +14,10 @@
           <a href="mailto:osrubens@gmail.com" class="text-black underline mb-4 block">osrubens@gmail.com</a>
           <p class="mb-2">Mobile</p>
           <p class="mb-8">(+34) 680 175 200</p>
-          <div class="flex justify-end space-x-3">
-            <a v-for="(icon, index) in socialIcons" 
-               :key="index" 
-               :href="icon.link"
-               target="_blank"
-               rel="noopener noreferrer" 
-               class="w-10 h-10 flex items-center justify-center rounded-full bg-[#E88D7D] hover:bg-[#df8575] transition-colors duration-300">
-              <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path :d="icon.svg"></path>
+          <div class="flex justify-end space-x-4"> <!-- Added justify-end class -->
+            <a v-for="(icon, index) in socialIcons" :key="index" :href="icon.link" class="bg-red p-2 rounded-full hover:bg-red transition-colors duration-300">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path :d="icon.path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
               </svg>
             </a>
           </div>
@@ -37,7 +32,7 @@
                 v-model="form[field.id]"
                 :type="field.type"
                 :required="field.required"
-                class="w-full p-2 bg-white border border-gray-300 rounded"
+                class="w-full p-2 bg-white border border-gray-300"
               />
               <textarea
                 v-else
@@ -45,12 +40,12 @@
                 v-model="form[field.id]"
                 rows="4"
                 :required="field.required"
-                class="w-full p-2 bg-white border border-gray-300 rounded"
+                class="w-full p-2 bg-white border border-gray-300"
               ></textarea>
             </div>
             <button
               type="submit"
-              class="px-4 py-2 bg-red text-white rounded hover:bg-red transition-colors duration-300"
+              class="px-4 py-2 bg-red text-white hover:bg-red transition-colors duration-300"
             >
               Submit
             </button>
@@ -98,6 +93,8 @@ const form = ref({
 });
 
 const submitForm = () => {
+  // Handle form submission here
   console.log('Form submitted:', form.value);
+  // You can add your form submission logic here, such as sending data to a server
 };
 </script>

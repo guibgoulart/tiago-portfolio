@@ -1,6 +1,6 @@
 <template>
   <section class="min-h-screen bg-gray-900 text-white py-8 flex items-center">
-    <div class="w-full max-w-[98%] mx-auto">
+    <div class="w-full max-w-[100%] mx-auto">
       <div class="flex flex-col md:flex-row">
         <div class="md:w-[45%] relative">
           <img src="@/assets/whoiam.png" alt="Portrait of Tiago" class="w-full h-full object-cover" />
@@ -9,8 +9,8 @@
           </h1>
         </div>
         <div class="md:w-[55%] flex flex-col md:pl-12 md:pr-24">
-          <div class="space-y-3 text-xs md:text-sm text-left">
-            <p class="font-medium md:mt-12">
+          <div class="space-y-3 md:text-xl font-light text-left">
+            <p class="md:mt-12">
               I'm Tiago, a creative designer from Brazil currently located in Barcelona.
             </p>
             <br />

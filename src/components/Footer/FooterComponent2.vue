@@ -1,7 +1,7 @@
 <template>
     <div class="font-playfair">
       <!-- Footer Section -->
-      <div class="bg-soft-black text-white p-4 mt-8 w-full">
+      <div class="bg-soft-black text-white p-4 w-full">
         <div class="container mx-auto flex flex-col items-center">
           <p class="text-center text-sm md:text-lg mb-2">
             made with ❤️ and figma
