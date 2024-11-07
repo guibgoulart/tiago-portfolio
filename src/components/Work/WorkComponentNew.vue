@@ -2,7 +2,7 @@
   <section class="bg-red py-16 px-4 md:px-8">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl md:text-5xl font-bold text-white mb-2">*projects</h2>
-      <p class="text-lg md:text-xl text-white mb-8">
+      <p class="text-lg font-light md:text-xl text-white mb-8">
         Transforming ideas into memorable experiences through UX+UI Design and strategic Branding.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

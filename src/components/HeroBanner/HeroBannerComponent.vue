@@ -20,7 +20,7 @@
           <div class="w-full md:w-1/3 md:absolute md:right-12 lg:right-24">
             <div class="p-6 rounded-lg">
               <h3 class="text-4xl md:text-5xl font-bold text-white mb-6">who am I?</h3>
-              <p class="text-base md:text-lg text-white mb-8">
+              <p class="text-base font-light md:text-lg text-white mb-8">
                 I'm Tiago, a creative designer from Brazil currently located in Barcelona.
                 I will help you develop your digital product based on a better user experience.
               </p>

@@ -64,7 +64,7 @@ import { ref } from 'vue';
 
 const socialIcons = [
   { 
-    path: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5V8H7.5v2H13v2H7.5v2H13v2H7.5v2H13v2H6V4h7zm3 14.5H8v-2h8v2z",
+    path: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM6 20V4h7v5h5v11H6z M14 15H8v-2h6v2z M14 11H8V9h6v2z",
     link: 'https://docs.google.com/document/d/18k4KWLUMiHyqHgBTk6UlZxCTfa83Fc-m3r3y946AFuc/edit?usp=drive_link'
   },
   { 
