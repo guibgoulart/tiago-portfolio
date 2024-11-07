@@ -22,14 +22,17 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue')
 
-    },
-    {
-      path: '/contactme',
-      name: 'contacme',
-      component: () => import('../views/ContactMeView.vue')
-
-    },
-  ]
+    }
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    }
+    return { top: 0 };
+  },
 })
 
 export default router

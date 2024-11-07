@@ -14,7 +14,7 @@
           <a href="mailto:osrubens@gmail.com" class="text-black underline mb-4 block">osrubens@gmail.com</a>
           <p class="mb-2">Mobile</p>
           <p class="mb-8">(+34) 680 175 200</p>
-          <div class="flex justify-end space-x-4">
+          <div id="contact" class="flex justify-end space-x-4">
             <a v-for="(icon, index) in socialIcons" 
                :key="index" 
                :href="icon.link" 
