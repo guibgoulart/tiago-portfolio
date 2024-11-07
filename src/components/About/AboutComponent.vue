@@ -60,7 +60,7 @@
           <a href="https://docs.google.com/document/d/18k4KWLUMiHyqHgBTk6UlZxCTfa83Fc-m3r3y946AFuc/edit?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-block w-1/5 text-white bg-transparent px-4 py-2 text-xs md:text-sm font-bold border-2 border-white shadow-[2px_2px_0px_0px_rgba(255,255,255,1)] hover:bg-white hover:bg-opacity-20 transition-colors duration-300 mt-6">
+            class="inline-block w-1/6 text-white bg-transparent px-4 py-2 text-xs md:text-sm font-bold border-2 border-white shadow-[2px_2px_0px_0px_rgba(255,255,255,1)] hover:bg-white hover:bg-opacity-20 transition-colors duration-300 mt-6">
             View my CV
           </a>
         </div>
