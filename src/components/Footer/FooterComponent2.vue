@@ -1,9 +1,9 @@
 <template>
-    <div class="font-playfair">
+    <div class="font-DotGothic16">
       <!-- Footer Section -->
       <div class="bg-soft-black text-white p-4 w-full">
         <div class="container mx-auto flex flex-col items-center">
-          <p class="text-center text-sm md:text-lg mb-2">
+          <p class="text-center text-sm md:text-lg font-DotGothic16 mb-2">
             made with ❤️ and figma
           </p>
           <p class="text-center text-xs md:text-sm">

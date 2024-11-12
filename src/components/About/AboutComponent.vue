@@ -2,14 +2,17 @@
   <section class="min-h-screen bg-gray-900 text-white py-8 flex items-center">
     <div class="w-full max-w-[100%] mx-auto">
       <div class="flex flex-col md:flex-row">
-        <div class="md:w-[45%] relative">
-          <img src="@/assets/whoiam.png" alt="Portrait of Tiago" class="w-full h-full object-cover" />
-          <h1 class="absolute top-0 right-0 text-7xl md:text-8xl lg:text-8xl font-bold text-red leading-none z-10 text-right md:mt-12">
-            WHO<br />AM<br />I?
-          </h1>
+        <div class="w-full md:w-[45%] relative">
+          <div class="aspect-w-4 aspect-h-5 md:aspect-none md:h-full">
+            <img 
+              src="@/assets/Who_am_i.png" 
+              alt="Portrait of Tiago" 
+              class="w-full h-full object-cover"
+            />
+          </div>
         </div>
         <div class="md:w-[55%] flex flex-col md:pl-12 md:pr-24">
-          <div class="space-y-3 md:text-xl font-light text-left">
+          <div class="space-y-3 md:text-xl fonte-inter font-light text-left">
             <p class="md:mt-12">
               I'm Tiago, a creative designer from Brazil currently located in Barcelona.
             </p>
