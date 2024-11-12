@@ -96,6 +96,7 @@ const form = ref({
 });
 
 const submitForm = () => {
-  console.log('Form submitted:', form.value);
+  const mailtoLink = `mailto:osrubens@gmail.com?subject=Contact from ${form.value.name}&body=Name: ${form.value.name}%0AEmail: ${form.value.email}%0APhone: ${form.value.phone}%0AMessage: ${form.value.message}`;
+  window.location.href = mailtoLink;
 };
 </script>
