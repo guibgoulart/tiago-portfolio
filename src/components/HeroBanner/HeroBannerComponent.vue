@@ -14,9 +14,12 @@
               who am I?
             </h1>
             <p class="text-sm sm:text-base md:text-lg text-white/90 mb-6 md:mb-8 font-inter font-light leading-relaxed text-shadow text-center md:text-right">
-              I'm Tiago, an inventive designer from Brazil<br class="hidden md:inline" />
-              now residing in Barcelona. I am here to aid<br class="hidden md:inline" />
-              in the creation of your digital product,<br class="hidden md:inline" />
+              I'm Tiago, an inventive designer from Brazil
+              <br class="hidden sm:inline" />
+              now residing in Barcelona. I am here to aid
+              <br class="hidden sm:inline" />
+              in the creation of your digital product,
+              <br class="hidden sm:inline" />
               prioritizing exceptional user experience.
             </p>
             <div class="text-center md:text-right">
