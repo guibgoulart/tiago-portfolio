@@ -10,6 +10,14 @@ COPY package*.json ./
 # Instala as dependências
 RUN npm install
 
+# Atualiza browserslist
+RUN npx update-browserslist-db@latest
+
+# Limpa cache e instala novamente se necessário
+RUN npm cache clean --force && \
+    rm -rf node_modules && \
+    npm install
+
 # Copia o código fonte
 COPY . .
 
