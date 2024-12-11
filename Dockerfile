@@ -36,5 +36,5 @@ COPY --from=build-stage /app/dist /usr/share/nginx/html
 # Expõe a porta 80
 EXPOSE 80
 
-# Inicia o nginx
+# Inicia o nginx com a nova configuração
 CMD ["nginx", "-g", "daemon off;"] 
