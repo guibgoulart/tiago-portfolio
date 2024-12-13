@@ -49,7 +49,7 @@
           In addition to my involvement in the design world, one of my great passions
           is music. I majored in Literature and built a solid career as a songwriter/
           composer and musician, bringing a unique sensitivity and diverse creative
-          approach to all aspects of my professional life.
+          approach to all aspects of my professional life. 
         </p>
         
         <p>
